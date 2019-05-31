@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("http://192.168.43.223:3000/");
+            mSocket = IO.socket("https://androidgyrosocket.herokuapp.com");
         } catch (URISyntaxException e) {}
     }
     private SensorManager mSensorManager;
